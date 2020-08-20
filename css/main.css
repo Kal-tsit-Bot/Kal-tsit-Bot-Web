@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "BMDOHYEON";
+    src: url("../font/BMDOHYEON.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cafe24Ohsquare";
+    src: url("../font/Cafe24Ohsquare.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cafe24Ohsquareair";
+    src: url("../font/Cafe24Ohsquareair.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HangeulNuriR";
+    src: url("../font/HangeulNuriR.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HswB";
+    src: url("../font/HswB.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HswR";
+    src: url("../font/HswR.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "KoPubWorld";
+    src: url("../font/KoPubWorld.ttf") format("truetype");
+}
+
+body {
+    background-color: white;
+    padding-top: 85px;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+h1 {
+    margin-left: 80px;
+    font-size: 40px;
+    font-family: Cafe24Ohsquare, sans-serif;
+    margin-top: -30px;
+    letter-spacing: -1px;
+    color: black;
+    position: static;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: #cbcd5b;
+    text-shadow: -1px 0 #000,
+    0 1px #000,
+    1px 0 #000,
+    0 -1px #000;
+}
+
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.container {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+    font-family: HswB, sans-serif;
+    font-size: 35px;
+    margin-left: 65px;
+    color: black;
+    margin-top: 200px;
+}
+
+.container > p {
+    font-family: HangeulNuriR, sans-serif;
+    margin-top: 10px;
+}
+
+.back {
+    margin-left: 125px;
+    margin-top: 40px;
+}
+
+.title_img {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 70px;
+}
+

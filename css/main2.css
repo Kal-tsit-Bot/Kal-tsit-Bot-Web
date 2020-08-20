@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "BMDOHYEON";
+    src: url("../font/BMDOHYEON_ttf.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cafe24Ohsquareair";
+    src: url("../font/Cafe24Ohsquareair.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HangeulNuriR";
+    src: url("../font/HangeulNuriR.ttf") format("truetype");
+}
+
+body {
+    background-color: white;
+    padding-top: 85px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 80px;
+    font-size: 35px;
+    font-family: BMDOHYEON, sans-serif;
+    font-weight: lighter;
+    color: #7289DA;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: Cafe24Ohsquareair, sans-serif;
+    text-align: left;
+    font-size: 60px;
+    color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    padding: 1rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.75);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    right: 180px;
+}
+
+#topMenu {
+    height: 75px;
+    width: 850px;
+}
+
+p {
+    margin: 0;
+    color: black;
+}
+
+html {
+    height: 300%;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#topMenu ul li {
+    list-style: none;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#topMenu .menuLink {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 230px;
+    height: 50px;
+    font-size: 16px;
+    font-family: Cafe24Ohsquareair, sans-serif;
+}
+
+#topMenu .menuLink:hover {
+    color: gray;
+}
+
+#intro1 {
+    text-decoration: none;
+    position: relative;
+    float: top;
+    text-align: center;
+    display: block;
+    left: -400px;
+    top: 520px;
+}
+
+#intro1 ul li {
+    color: white;
+    font-size: 30px;
+    font-family: HangeulNuriR, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+#intro1 img {
+    position: relative;
+    top: -255px;
+    left: 800px;
+    border: 3px solid white;
+    border-radius: 7px;
+}
